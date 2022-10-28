@@ -32,11 +32,25 @@ For our resale model, we obtained an adjusted R-squared value of 0.197, which me
 Our resale model also passed all assumptions for LINH and multicollinearity.  However, we have many features that are not significant for the model.
 
 ## Visuals
+![Final Model - Actual vs. Predicted Values](images/model_act_pred.png)
 ![Absolute Value of Model's Coefficients for Each Feature](images/coefs.png)
+![Distance from Downtown Seattle vs. Sale Price](images/dist_scatter.png)
+![Living Area vs. Sale Price](images/sqftscatter.png)
+![Living Area of Neighbors vs. Sale Price](images/sqft15_scatter.png)
+![Resale Model - Actual vs. Predicted Values](images/resale_model_act_pred.png)
+![Bar Chart of Mean Resale Price](images/resale_price.png)
 
 
 ## Conclusions
 In summary, for the business goals of Northwest Builders & Renovation to understand the most relevant factors affecting home sale price, and maximizing marketing possibilities for renovations and new builds, we would recommend focusing on the location of the property, size of the property, and the size of the nearest homes to the property.  Based on the calculations from our final model, there is a decrease in sale price of 16,271 dollars per mile *away* from downtown Seattle, an increase in sale price by 115 dollars per square foot added in the living area of the property, and an increase in sale price of 110 dollars per square foot added in the living area of the nearest 15 homes.  We also found significance in the features of distance from Seattle and year built affecting the change in resale price for properties in our dataset. We found on average, sale prices increased by 42% from first sale to second sale.  
+
+
+## For More Information
+
+Please review our full analysis in [our Jupyter Notebook](./King County Housing notebook.ipynb) or our [presentation](./King County Housing Slides.pdf).
+
+For any additional questions, please contact **Andrew Boucher aboucher1360@gmail.com or Jon McCaffrey jonmccaffrey524@gmail.com**
+
 
 
 ## Repository Structure
@@ -44,9 +58,9 @@ In summary, for the business goals of Northwest Builders & Renovation to underst
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                       <- The top-level README for reviewers of this project
-├── King County Housing Notebook.ipynb   	<- Main notebook for project code
-├── King County Housing Slides.pdf         <- PDF of slides for our presentation
-├── Notes			<- Working notebooks for each member of the authors of this project
+├── README.md                           <- The top-level README for reviewers of this project
+├── King County Housing Notebook.ipynb  <- Main notebook for project code
+├── King County Housing Slides.pdf      <- PDF of slides for our presentation
+├── Data			                          <- Location of raw dataset
 └── Images                              <- images used and generated in the project
 
