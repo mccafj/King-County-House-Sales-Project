@@ -47,7 +47,7 @@ In summary, for the business goals of Northwest Builders & Renovation to underst
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./King County Housing notebook.ipynb) or our [presentation](./King County Housing Slides.pdf).
+Please review our full analysis in __[our Jupyter Notebook](https://github.com/mccafj/King-County-House-Sales-Project/blob/main/King%20County%20Housing%20notebook.ipynb)__ or our __[presentation](https://github.com/mccafj/King-County-House-Sales-Project/blob/main/King%20County%20Housing%20Slides.pdf)__.
 
 For any additional questions, please contact **Andrew Boucher aboucher1360@gmail.com or Jon McCaffrey jonmccaffrey524@gmail.com**
 
