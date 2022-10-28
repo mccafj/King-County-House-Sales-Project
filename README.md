@@ -32,7 +32,7 @@ For our resale model, we obtained an adjusted R-squared value of 0.197, which me
 Our resale model also passed all assumptions for LINH and multicollinearity.  However, we have many features that are not significant for the model.
 
 ## Visuals
-
+![Absolute Value of Model's Coefficients for Each Feature](images/coefs.png)
 
 
 ## Conclusions
